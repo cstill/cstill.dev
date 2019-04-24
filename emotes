@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<head>
+<style type="text/css">
+  body {
+  background-color: black;
+  background-image: url("poggers.gif");
+  background-repeat: repeat;
+}
+</style>
+</head>
+<body>
+  <div class="app-grid">
+<!-- ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/55e2096ea6fa8b261f81b12a">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/55e2096ea6fa8b261f81b12a/2x" src="//cdn.betterttv.net/emote/55e2096ea6fa8b261f81b12a/2x">
+<h2 class="grid-item-title ng-binding">forsenPls</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b490e73cf46791f8491f6f4">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b490e73cf46791f8491f6f4/2x" src="//cdn.betterttv.net/emote/5b490e73cf46791f8491f6f4/2x">
+<h2 class="grid-item-title ng-binding">HACKERMANS</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b215a245eaa38694dc91635">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b215a245eaa38694dc91635/2x" src="//cdn.betterttv.net/emote/5b215a245eaa38694dc91635/2x">
+<h2 class="grid-item-title ng-binding">pepeBASS</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5ba84271c9f0f66a9efc1c86">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5ba84271c9f0f66a9efc1c86/2x" src="//cdn.betterttv.net/emote/5ba84271c9f0f66a9efc1c86/2x">
+<h2 class="grid-item-title ng-binding">pepeMeltdown</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b4e2df4a13f8e3953e28f5d">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b4e2df4a13f8e3953e28f5d/2x" src="//cdn.betterttv.net/emote/5b4e2df4a13f8e3953e28f5d/2x">
+<h2 class="grid-item-title ng-binding">HYPERCLAP2</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/569c12df74e294571e59fded">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/569c12df74e294571e59fded/2x" src="//cdn.betterttv.net/emote/569c12df74e294571e59fded/2x">
+<h2 class="grid-item-title ng-binding">HACKS</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b8a9c6f80c14b0422a7b2a0">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b8a9c6f80c14b0422a7b2a0/2x" src="//cdn.betterttv.net/emote/5b8a9c6f80c14b0422a7b2a0/2x">
+<h2 class="grid-item-title ng-binding">monkaEXTREME</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a5a7d836bcd9a06f4fc5a3a">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a5a7d836bcd9a06f4fc5a3a/2x" src="//cdn.betterttv.net/emote/5a5a7d836bcd9a06f4fc5a3a/2x">
+<h2 class="grid-item-title ng-binding">monkaGunshake</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b50f3b822eafd1c959b6cf4">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b50f3b822eafd1c959b6cf4/2x" src="//cdn.betterttv.net/emote/5b50f3b822eafd1c959b6cf4/2x">
+<h2 class="grid-item-title ng-binding">BLAPBLAP</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b23b1825ea9d964f4000e4b">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b23b1825ea9d964f4000e4b/2x" src="//cdn.betterttv.net/emote/5b23b1825ea9d964f4000e4b/2x">
+<h2 class="grid-item-title ng-binding">FeelsRedditMan</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b35ca08392c604c5fd81874">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b35ca08392c604c5fd81874/2x" src="//cdn.betterttv.net/emote/5b35ca08392c604c5fd81874/2x">
+<h2 class="grid-item-title ng-binding">HYPERCLAP</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b511c70d61ab53b98a48106">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b511c70d61ab53b98a48106/2x" src="//cdn.betterttv.net/emote/5b511c70d61ab53b98a48106/2x">
+<h2 class="grid-item-title ng-binding">BLAAP</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/58484835f52be01a7ee5f11b">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/58484835f52be01a7ee5f11b/2x" src="//cdn.betterttv.net/emote/58484835f52be01a7ee5f11b/2x">
+<h2 class="grid-item-title ng-binding">Clap2</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/55b6f480e66682f576dd94f5">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/2x" src="//cdn.betterttv.net/emote/55b6f480e66682f576dd94f5/2x">
+<h2 class="grid-item-title ng-binding">Clap</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5ca32c102489ff7082fdf431">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5ca32c102489ff7082fdf431/2x" src="//cdn.betterttv.net/emote/5ca32c102489ff7082fdf431/2x">
+<h2 class="grid-item-title ng-binding">AngryFroge</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5ca0b09aee8f1c7090b47634">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5ca0b09aee8f1c7090b47634/2x" src="//cdn.betterttv.net/emote/5ca0b09aee8f1c7090b47634/2x">
+<h2 class="grid-item-title ng-binding">PepeLate</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c9690aea9c2c44a8c83396d">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c9690aea9c2c44a8c83396d/2x" src="//cdn.betterttv.net/emote/5c9690aea9c2c44a8c83396d/2x">
+<h2 class="grid-item-title ng-binding">PEACEOUT</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c85f315c9b377041a1adeca">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c85f315c9b377041a1adeca/2x" src="//cdn.betterttv.net/emote/5c85f315c9b377041a1adeca/2x">
+<h2 class="grid-item-title ng-binding">PepegaZOOM</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c7d593899f4371316fcda8d">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c7d593899f4371316fcda8d/2x" src="//cdn.betterttv.net/emote/5c7d593899f4371316fcda8d/2x">
+<h2 class="grid-item-title ng-binding">PEPELEPSY</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a7fd054b694db72eac253f4">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a7fd054b694db72eac253f4/2x" src="//cdn.betterttv.net/emote/5a7fd054b694db72eac253f4/2x">
+<h2 class="grid-item-title ng-binding">monkaTOS</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c34dbdf1a0b6956017d4d9d">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c34dbdf1a0b6956017d4d9d/2x" src="//cdn.betterttv.net/emote/5c34dbdf1a0b6956017d4d9d/2x">
+<h2 class="grid-item-title ng-binding">SansDefault</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b8f1131c7de907b6184fc31">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b8f1131c7de907b6184fc31/2x" src="//cdn.betterttv.net/emote/5b8f1131c7de907b6184fc31/2x">
+<h2 class="grid-item-title ng-binding">PepeSpin</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5bf6d38eb496182cd482e4ac">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5bf6d38eb496182cd482e4ac/2x" src="//cdn.betterttv.net/emote/5bf6d38eb496182cd482e4ac/2x">
+<h2 class="grid-item-title ng-binding">PEEPERS</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c4fb30ed3608d75429cd7b9">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c4fb30ed3608d75429cd7b9/2x" src="//cdn.betterttv.net/emote/5c4fb30ed3608d75429cd7b9/2x">
+<h2 class="grid-item-title ng-binding">ClapClap</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c0566cc388eea251b3ec274">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c0566cc388eea251b3ec274/2x" src="//cdn.betterttv.net/emote/5c0566cc388eea251b3ec274/2x">
+<h2 class="grid-item-title ng-binding">HYPERROBDAB</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a8314b61686393232d31027">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a8314b61686393232d31027/2x" src="//cdn.betterttv.net/emote/5a8314b61686393232d31027/2x">
+<h2 class="grid-item-title ng-binding">forsenDiscoSnake</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/581435ed33d5f04c4cdb0d51">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/581435ed33d5f04c4cdb0d51/2x" src="//cdn.betterttv.net/emote/581435ed33d5f04c4cdb0d51/2x">
+<h2 class="grid-item-title ng-binding">zSpooky</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c0b0fa104ce5c33ac7b1a0e">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c0b0fa104ce5c33ac7b1a0e/2x" src="//cdn.betterttv.net/emote/5c0b0fa104ce5c33ac7b1a0e/2x">
+<h2 class="grid-item-title ng-binding">crabD</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/57719a9a6bdecd592c3ad59b">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/57719a9a6bdecd592c3ad59b/2x" src="//cdn.betterttv.net/emote/57719a9a6bdecd592c3ad59b/2x">
+<h2 class="grid-item-title ng-binding">gachiBASS</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5bc2143ea5351f40921080ee">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5bc2143ea5351f40921080ee/2x" src="//cdn.betterttv.net/emote/5bc2143ea5351f40921080ee/2x">
+<h2 class="grid-item-title ng-binding">ricardoFlick</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5af84b9e766af63db43bf6b9">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5af84b9e766af63db43bf6b9/2x" src="//cdn.betterttv.net/emote/5af84b9e766af63db43bf6b9/2x">
+<h2 class="grid-item-title ng-binding">sumSmash</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/58ff1c68648b4c194a7c654a">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/58ff1c68648b4c194a7c654a/2x" src="//cdn.betterttv.net/emote/58ff1c68648b4c194a7c654a/2x">
+<h2 class="grid-item-title ng-binding">pepeClap</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/59143b496996b360ff9b807c">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/59143b496996b360ff9b807c/2x" src="//cdn.betterttv.net/emote/59143b496996b360ff9b807c/2x">
+<h2 class="grid-item-title ng-binding">gachiHYPER</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a9578d6dcf3205f57ba294f">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a9578d6dcf3205f57ba294f/2x" src="//cdn.betterttv.net/emote/5a9578d6dcf3205f57ba294f/2x">
+<h2 class="grid-item-title ng-binding">ppHop</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b15162147c7bf3bfc0b9c76">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b15162147c7bf3bfc0b9c76/2x" src="//cdn.betterttv.net/emote/5b15162147c7bf3bfc0b9c76/2x">
+<h2 class="grid-item-title ng-binding">pepeSmoke</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/57850b9df1bf2c1003a88644">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/57850b9df1bf2c1003a88644/2x" src="//cdn.betterttv.net/emote/57850b9df1bf2c1003a88644/2x">
+<h2 class="grid-item-title ng-binding">FeelsRainMan</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/58868aa5afc2ff756c3f495e">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/58868aa5afc2ff756c3f495e/2x" src="//cdn.betterttv.net/emote/58868aa5afc2ff756c3f495e/2x">
+<h2 class="grid-item-title ng-binding">GachiPls</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b3e953a2c8a38720760c7f7">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b3e953a2c8a38720760c7f7/2x" src="//cdn.betterttv.net/emote/5b3e953a2c8a38720760c7f7/2x">
+<h2 class="grid-item-title ng-binding">ppOverheat</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5b3fd6770f8f6c2547825a6f">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5b3fd6770f8f6c2547825a6f/2x" src="//cdn.betterttv.net/emote/5b3fd6770f8f6c2547825a6f/2x">
+<h2 class="grid-item-title ng-binding">OMEGALAUGHING</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c1a15869045e913a13b5410">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c1a15869045e913a13b5410/2x" src="//cdn.betterttv.net/emote/5c1a15869045e913a13b5410/2x">
+<h2 class="grid-item-title ng-binding">monkaRUN</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c755240503d2a4816249afb">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c755240503d2a4816249afb/2x" src="//cdn.betterttv.net/emote/5c755240503d2a4816249afb/2x">
+<h2 class="grid-item-title ng-binding">PepegaShake</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c55efdac0a5642a69619c1f">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c55efdac0a5642a69619c1f/2x" src="//cdn.betterttv.net/emote/5c55efdac0a5642a69619c1f/2x">
+<h2 class="grid-item-title ng-binding">PepeDoor</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a8e0e8d86cbeb5bd31abb8b">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a8e0e8d86cbeb5bd31abb8b/2x" src="//cdn.betterttv.net/emote/5a8e0e8d86cbeb5bd31abb8b/2x">
+<h2 class="grid-item-title ng-binding">MmmHmm</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a40351d4884645e5706a6ee">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a40351d4884645e5706a6ee/2x" src="//cdn.betterttv.net/emote/5a40351d4884645e5706a6ee/2x">
+<h2 class="grid-item-title ng-binding">think3D</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c63d3db4c7f0220299eeacd">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c63d3db4c7f0220299eeacd/2x" src="//cdn.betterttv.net/emote/5c63d3db4c7f0220299eeacd/2x">
+<h2 class="grid-item-title ng-binding">FeelsLoveMan</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5a5a2cd38c7d510704a8dc51">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5a5a2cd38c7d510704a8dc51/2x" src="//cdn.betterttv.net/emote/5a5a2cd38c7d510704a8dc51/2x">
+<h2 class="grid-item-title ng-binding">RapThis</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c23ccb1269f8862cb622635">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c23ccb1269f8862cb622635/2x" src="//cdn.betterttv.net/emote/5c23ccb1269f8862cb622635/2x">
+<h2 class="grid-item-title ng-binding">FeelsSuperWeirdMan</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c548025009a2e73916b3a37">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c548025009a2e73916b3a37/2x" src="//cdn.betterttv.net/emote/5c548025009a2e73916b3a37/2x">
+<h2 class="grid-item-title ng-binding">PepeLaugh</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5cae8f54ec74636e2cb0c075">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5cae8f54ec74636e2cb0c075/2x" src="//cdn.betterttv.net/emote/5cae8f54ec74636e2cb0c075/2x">
+<h2 class="grid-item-title ng-binding">megaZ</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel --><a class="grid-item a-unstyled pointer ng-scope" ng-repeat="emote in emotes | filterNonShared:channel" ng-class="{ 'grid-disabled': emote.disabled }" ui-sref="emotes.edit({ id: emote._id })" href="/emotes/5c8c7591c9b377041a1b3578">
+<img class="grid-item-back" ng-src="//cdn.betterttv.net/emote/5c8c7591c9b377041a1b3578/2x" src="//cdn.betterttv.net/emote/5c8c7591c9b377041a1b3578/2x">
+<h2 class="grid-item-title ng-binding">PepegaSLIDE</h2>
+</a><!-- end ngRepeat: emote in emotes | filterNonShared:channel -->
+<a class="grid-item a-unstyled pointer ng-hide" href="/emotes/share" ui-sref="emotes.sharing" ng-show="User.name === channel &amp;&amp; (emotes | filterNonShared:channel).length < User.limits.sharedEmotes" style="">
+<img class="grid-item-back" src="img/plus.png">
+<h2 class="grid-item-title">Add</h2>
+</a>
+</div>
+</body>
