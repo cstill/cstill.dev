@@ -9,34 +9,146 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+.app-grid {
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 0px;
+}
+
 .app-grid .grid-item {
     position: relative;
     display: inline-block;
     width: 100px;
     height: 100px;
     margin: 2px;
-    margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    margin-left: 2px;
     background: #eee;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgb(238, 238, 238);
     text-align: left;
     font-size: 13px;
     overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
     vertical-align: bottom;
 }
+
+.app-grid .grid-item img.grid-item-back {
+    margin: 25%;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.app-grid .grid-item input.grid-item-check {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.app-grid .grid-item .grid-item-back-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background: rgba(0,0,0,0.2);
+
+    transition: background 0.4s;
+}
+
+.app-grid .grid-item .grid-item-hover-link {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Arimo", sans-serif;
+    font-weight: lighter;
+    color: #999;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+
+    display: none;
+}
+
+.app-grid .grid-item .grid-item-title {
+    position: absolute;
+    bottom: 4px;
+
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Arimo", sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.app-grid .grid-item .grid-item-title small {
+    font-size: 13px;
+    color: #bbb;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+}
+
+.app-grid .grid-item .grid-item-desciption {
+    position: absolute;
+    bottom: -170px;
+    left: 20px;
+    right: 20px;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+
+    transition: bottom 0.4s;
+}
+
+.app-grid .grid-item .grid-item-desciption ul {
+    padding-left: 30px;
+}
+
+.app-grid .grid-item .grid-item-desciption a {
+    color: #fff;
+}
+
+
+.app-grid .grid-item-hover:hover {
+    cursor: pointer;
+}
+.app-grid .grid-item-hover:hover .grid-item-back-overlay {
+    background: rgba(0,0,0,0.5);
+}
+.app-grid .grid-item-hover:hover .grid-item-hover-link {
+    display: block;
+}
+.app-grid .grid-item-hover:hover .grid-item-desciption {
+    bottom: 20px;
+}
+.app-grid .grid-item-hover:hover .grid-item-title {
+    top: 20px;
+}
+
+.grid-disabled {
+    opacity: 0.5;
+}
+
 </style>
 </head>
 <body>
