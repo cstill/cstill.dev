@@ -75,12 +75,17 @@ img.right {
 </audio>
     <script>
 var vac = document.getElementById("vacation");
+        vac.muted=false;
   vac.autoplay = true;
   vac.load();
         vac.loop = true;
 
-function muteAudio() { 
-    vac.muted = true;
+function enableMute() { 
+  vac.muted = true;
+} 
+
+function disableMute() { 
+  vac.muted = false;
 } 
 
 </script> 
