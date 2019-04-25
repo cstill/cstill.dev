@@ -70,6 +70,20 @@ img.right {
     <link rel="stylesheet" href="style.css" type="text/css">
     <script language="javascript" type="text/javascript" src="../jQuery.min.js"></script>
     <script language="javascript" type="text/javascript" src="../basic.js"></script>
+    <audio id="vacation">
+  <source src="vacation.wav" type="audio/wav">
+</audio>
+    <script>
+var vac = document.getElementById("vacation");
+  vac.autoplay = true;
+  vac.load();
+
+function disableAutoplay() { 
+  vac.autoplay = false;
+  vac.load();
+} 
+
+</script> 
 </head>
 <body id="page">
     <em class="PTAG pull-right"></em>
