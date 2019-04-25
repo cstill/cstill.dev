@@ -77,10 +77,10 @@ img.right {
 var vac = document.getElementById("vacation");
   vac.autoplay = true;
   vac.load();
+        vac.loop = true;
 
-function disableAutoplay() { 
-  vac.autoplay = false;
-  vac.load();
+function muteAudio() { 
+    vac.muted = true;
 } 
 
 </script> 
@@ -93,6 +93,7 @@ function disableAutoplay() {
     <p><a class="CPTAG">VACATION</a>!!!!!</p>
     <em class="PTAG bottomleft"></em>
     <em class="PTAG bottomright"></em>
+        <button onclick="muteAudio()" type="button">SHUTTHEFUCKUPAUDIO NaM</button>
 </body>
 
 </html>
