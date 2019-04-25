@@ -1,0 +1,84 @@
+<!Doctype HTML>
+<html itemscope itemtype="http://schema.org/WebPage">
+<head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+a.CPTAG, a.CFTAG,
+a.CPTAG:focus, a.CFTAG:focus,
+a.CPTAG:visited, a.CFTAG:visited,
+a.CPTAG:hover, a.CFTAG:hover {
+    color: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    text-decoration: inherit !important;
+}
+
+body {
+    background-color: #3FB9FF;
+    text-align: center;
+}
+
+img {
+    height: auto;
+}
+
+img.left {
+    max-width: 24%;
+}
+
+img.middle {
+    max-width: 50%;
+}
+
+img.right {
+    max-width: 24%;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <title>VACation</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script language="javascript" type="text/javascript" src="../jQuery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../basic.js"></script>
+</head>
+<body id="page">
+    <em class="PTAG pull-right"></em>
+    <a class="CPTAG CFTAG"><img src="images/tree.gif" class="left" width="200">
+    <a class="CPTAG CFTAG"><img src="images/dance.gif" class="middle" width="720">
+    <a class="CPTAG CFTAG"><img src="images/tree.gif" class="right" width="200">
+    <p><a class="CPTAG">VACATION</a>!!!!!</p>
+    <em class="PTAG bottomleft"></em>
+    <em class="PTAG bottomright"></em>
+</body>
+
+</html>
