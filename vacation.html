@@ -11,42 +11,6 @@
     vertical-align: baseline;
     box-sizing: border-box;
 }
-.ascii {
-    padding: 50px;
-}
-
-.column {
-  float: left;
-  padding: 10px;
-}
-
-.leftside {
-  width: 20%;
-}
-
-.rightside {
-  width: 20%;
-}
-
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 25%;
-}
-
-.middle {
-  width: 10%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 a.CPTAG, a.CFTAG,
 a.CPTAG:focus, a.CFTAG:focus,
 a.CPTAG:visited, a.CFTAG:visited,
@@ -56,61 +20,37 @@ a.CPTAG:hover, a.CFTAG:hover {
     font-weight: inherit !important;
     text-decoration: inherit !important;
 }
-
 body {
     background-color: #3FB9FF;
     text-align: center;
 }
-
 img {
     height: auto;
 }
-
-.imgleft {
+img.left {
     max-width: 24%;
 }
-
-.imgmiddle {
+img.middle {
     max-width: 50%;
 }
-
-.imgright {
+img.right {
     max-width: 24%;
 }
-
 .pull-left {
     float: left;
 }
-
 .pull-right {
     float: right;
 }
-
 .bottomleft {
     position: absolute;
     left: 0;
     bottom: 10px;
 }
-
 .bottomright {
     position: absolute;
     right: 0;
     bottom: 10px;
-}
-div.pasta {
-    font-size: 12px;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    word-break: break-word;
-    line-height: 20px;
-    color: #ffffff;
-}
-.preview_twitch_name {
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 12px;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    word-break: break-word;
-    line-height: 20px;
 }
 </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -129,131 +69,25 @@ var vac = document.getElementById("vacation");
   vac.autoplay = true;
   vac.load();
         vac.loop = true;
-
 function enableMute() { 
   vac.muted = true;
 } 
-
 function disableMute() { 
   vac.muted = false;
 } 
-
 </script> 
 </head>
 <body id="page">
     <em class="PTAG pull-right"></em>
-    <a class="CPTAG CFTAG"><img src="tree.gif" class="imgleft" width="200">
-    <a class="CPTAG CFTAG"><img src="dance.gif" class="imgmiddle" width="720">
-    <a class="CPTAG CFTAG"><img src="tree.gif" class="imgright" width="200">
+    <a class="CPTAG CFTAG"><img src="tree.gif" class="left" width="200">
+    <a class="CPTAG CFTAG"><img src="dance.gif" class="middle" width="720">
+    <a class="CPTAG CFTAG"><img src="tree.gif" class="right" width="200">
     <p><a class="CPTAG">VACATION</a>!!!!!</p>
     <em class="PTAG bottomleft"></em>
     <em class="PTAG bottomright"></em>
         <button onclick="enableMute()" type="button">SHUTTHEFUCKUPMUSIC NaM</button>
         <br>
         <button onclick="disableMute()" type="button">FeelsGoodMan Clap</button>
-
-        <br>
-
-        <div class="row">
-
-            <div class="column leftside" style="background-color: #3FB9FF;">
-                  
-            </div>
-
-
-            <div class="column left" style="background-color:rgb(26, 26, 26)";>
-
-                <div class="ascii">
-                    
-                    <div class="preview_twitch_name" align="left">TriTexz:</div>
-
-                    <div class="pasta" align="left">
-                        <pre>
-                            <code>
-⣿⠛⠛⠻⣿⣿⠛⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⠛⠛⠛⣿⣿⠛⠛⠛⢻
-⣿⠄⠄⡀⠈⢿⠄⠄⣿⡟⠉⢉⣉⠉⠙⢿⣿⠄⢰⠄⠹⠇⠄⡆⠄⢸
-⣿⠄⠄⣿⣦⡀⠄⠄⣿⡋⠉⠡⠶⠂⠄⢸⣿⠄⢸⣇⠄⠄⣼⡇⠄⢸
-⣿⣶⣶⣿⣿⣿⣶⣶⣿⣿⣶⣶⣾⣷⣶⣾⣿⣶⣾⣿⣶⣶⣿⣷⣶⣾
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠻⠿⣿⣿⠿⠿⠿⠻⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⡏⠄⠰⣾⡆⠄⢈⣿⠄⠄⣶⣾⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣦⣤⣤⣤⣴⣾⣿⣤⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⠉⠉⣉⡉⠉⠛⢿⣿⠉⠉⢹⣿⠉⠉⢉⣉⣉⣉⣹⣿⣿⣿
-⣿⣿⣿⣿⠄⠄⣿⣿⡆⠄⢈⣿⠄⠄⢸⣿⠄⠄⢈⣉⣉⣉⣿⣿⣿⣿
-⣿⣿⣿⣿⠄⠄⠉⠉⣀⣀⣾⣿⠄⠄⢸⣿⠄⠄⠈⠉⠉⠉⢹⣿⣿⣿
-                            </code>
-                        </pre> 
-                    </div>
-                </div>
-                <div class="ascii">      
-                        <div class="preview_twitch_name" align="left">TriTexz:</div>
-                        <div class="pasta" align="left">
-                            <pre>
-                                <code>
-⣿⣿⣿⣿⣿⣿⣿⡿⠛⢻⣿⠟⢉⣀⣤⠞⠁⠀⣠⣴⣶⣄⣼⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⡟⠁⠐⠋⠁⠀⠉⠉⠀⠀⢠⣾⣿⡿⠿⠛⠉⠀⠀⠀⠈⠙⢻⣿⣿
-⣿⣿⣿⣿⡿⠋⠀⠀⣀⡤⠀⠀⠀⠀⠀⠀⠛⠉⠁⠀⠀⣠⣴⣾⣿⣷⣶⣤⣾⣿⣿
-⣿⣿⣿⠟⠁⠀⢀⡴⠋⠀⢀⣠⠄⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠛⠋⠁⠀⠀⣰⠏⠀⣠⠞⠋⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠉⢀⡾⠁⣠⠴⠞⠋⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⠀⠀⠚⠁⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⠃⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠛⠁⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣶⣶⣶⣶⣶⣤⣤⣤⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⡟⠛⢿⣿⡿⠛⣿⡿⠟⠛⠻⢿⣿⡿⠛⢿⣿⠛⠛⣿⣿⠛⢿⣿⠟⢻⣿⡿⠛⢻
-⣿⡄⠈⡿⠁⢰⣿⠀⢰⣷⡆⠀⣿⡇⠀⢸⣿⠀⠀⠸⣿⠀⢸⣿⠀⢸⡟⠁⣰⣿⣿
-⣿⣿⡄⠀⢠⣿⣿⠀⢸⣿⡇⠀⣿⡇⠀⢸⣿⠀⢰⡀⠹⠀⢸⣿⠀⠈⠀⠘⣿⣿⣿
-⣿⣿⡇⠀⣿⣿⣿⠀⢸⣿⡇⠀⣿⡇⠀⢸⣿⠀⢸⣧⠀⠀⢸⣿⠀⢠⣷⡀⠸⣿⣿
-⣿⣿⣇⣀⣿⣿⣿⣤⣈⣉⣁⣴⣇⣀⣸⣿⣀⣸⣿⣇⣀⣸⣿⣀⣸⣿⣧⣀⣹⣿
-                                </code>
-                            </pre> 
-                        </div>
-                    </div>
-
-                    <div class="ascii">      
-                            <div class="preview_twitch_name" align="left">TriTexz:</div>
-                            <div class="pasta" align="left">
-                                <pre>
-                                    <code>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿
-⠀⠀⣶⠀⠀⣀⣤⣶⣤⣉⣿⣿⣤⣀
-⠤⣤⣿⣤⣿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣀
-⠀⠛⠿⠀⠀⠀⠀⠉⣿⣿⣿⣿⣿⠉⠛⠿⣿⣤
-⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⣿⣿⠛⠀⠀⠀⣶⠿
-⠀⠀⠀⠀⠀⠀⠀⠀⣀⣿⣿⣿⣿⣤⠀⣿⠿
-⠀⠀⠀⠀⠀⠀⠀⣶⣿⣿⣿⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⠀⠿⣿⣿⣿⣿⣿⠿⠉⠉
-⠀⠀⠀⠀⠀⠀⠀⠉⣿⣿⣿⣿⠿
-⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠉
-⠀⠀⠀⠀⠀⠀⠀⠀⣛⣿⣭⣶⣀
-⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠉⠛⣿
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⣿⣿
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣉⠀⣶⠿
-⠀⠀⠀⠀⠀⠀⠀⠀⣶⣿⠿
-⠀⠀⠀⠀⠀⠀⠀⠛⠿⠛
-                                    </code>
-                                </pre> 
-                            </div>
-                        </div>
-
-            </div>
-
-            <div class="column middle" style="background-color: #3FB9FF;">
-                  
-            </div>
-
-            <div class="column right" style="background-color:rgb(26, 26, 26);">
-                  
-            </div>
-
-            <div class="column rightside" style="background-color: #3FB9FF;">
-                  
-            </div>
-        </div>
-
-    
 </body>
 
 </html>
