@@ -68,15 +68,16 @@ img.right {
 </audio>
     <script>
 var vac = document.getElementById("vacation");
-        vac.muted=false;
-  vac.autoplay = true;
-  vac.load();
-        vac.loop = true;
+vac.muted=false;
+vac.autoplay = true;
+vac.load();
+vac.loop = true;
+
 function enableMute() { 
-  vac.muted = true;
+    vac.muted = true;
 } 
 function disableMute() { 
-  vac.muted = false;
+    vac.muted = false;
 } 
 </script> 
 </head>
@@ -89,11 +90,9 @@ function disableMute() {
     <em class="PTAG bottomleft"></em>
     <em class="PTAG bottomright"></em>
        <div id="tab" class="btn-group" data-toggle="buttons-radio">
-              <a href="#prices" class="btn active" data-toggle="tab">Prices</a>
-              <a href="#features" class="btn" data-toggle="tab">Features</a>
-              <a href="#requests" class="btn" data-toggle="tab">Requests</a>
-              <a href="#contact" class="btn"  data-toggle="tab">Contact</a>
-            </div>
+            <a class="btn" onclick="disableMute()">FeelsGoodMan Clap</a>
+            <a class="btn" onclick="enableMute()">SHUTTHEFUCKUPMUSIC NaM</a>
+        </div>
 </body>
 
 </html>
