@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<center>
+<body>
+  
+<b><p id="prompt" style="font-family:verdana;font-size:300%;">click button</p></b>
+
+<button onclick="myFunction()">fellas is it bizza</button>
+
+<p id="crispy" style="font-family:courier;font-size:300%;"></p>
+
+<script>
+
+  var options = 
+  
+        ["Yes", "Absolutely", "Of course", "When is it not?", "The answer is never going to be no"];
+
+    function myFunction() {
+
+    var randomItem = 
+  
+        options[Math.floor(Math.random()*options.length)];
+
+  document.getElementById("crispy").innerHTML = randomItem;
+
+  document.getElementById("prompt").innerHTML = "click button again";
+}
+</script>
+
+</body>
+</html>
+</center>
